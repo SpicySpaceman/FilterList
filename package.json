@@ -1,0 +1,24 @@
+{
+  "name": "filterlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "aglint src/*.txt",
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpicySpaceman/FilterList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/SpicySpaceman/FilterList#readme",
+  "devDependencies": {
+    "@adguard/aglint": "^3.0.2",
+    "@adguard/dead-domains-linter": "^1.0.33"
+  }
+}

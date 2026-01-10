@@ -1,0 +1,47 @@
+name: Build Filters
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint filters
+        run: npm run lint
+
+      - name: Build filters
+        run: node scripts/build.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes in filters directory
+          if [[ -n $(git status filters --porcelain) ]]; then
+            git add filters/
+            git commit -m "Update filters [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
