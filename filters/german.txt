@@ -1,0 +1,8 @@
+! Checksum: hiIbEowHW6b8uWgEkKl4VQ
+! Title: German Filter
+! Version: 1
+! Last modified: 2026-01-10T21:02:04.680Z
+! Expires: 24 hours (update frequency)
+! Homepage: https://github.com/SpicySpaceman/FilterList
+! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
+!
