@@ -2,10 +2,10 @@
 !-------------- Movie sites ------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! General movie site rules
-/wp-content/uploads/*/*/*.gif$domain=xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--l3cmwb9e3d4b.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|moviefree247.com|447hd.com|monojav.cc|inwporn.com|avsubth.com|javsiam.com|av-subth.tv|anime-hit.com|cinemas1.com|24-hd.com|nung.tv|hubsmovie.com|donungfree.com|avsubthaix.tv|tvallseries.co|moviehd8k.com|dooseries4k.com|2umv.com|drama4k.com|noojav.com|xn--72czpj4a8cd9b4d0em6dwa.com|2uhdmovie.com|lk-hd.com|doomovie-free.com|9nunghd.com|xn--24-3qi3cza1b2a4dxc2byb.com|xn--2022-zeo6d9azcwb2e5c8b5b.com
+/wp-content/uploads/*/*/*.gif$domain=v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--l3cmwb9e3d4b.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|moviefree247.com|447hd.com|monojav.cc|inwporn.com|avsubth.com|javsiam.com|av-subth.tv|anime-hit.com|cinemas1.com|24-hd.com|nung.tv|hubsmovie.com|donungfree.com|avsubthaix.tv|tvallseries.co|moviehd8k.com|dooseries4k.com|2umv.com|drama4k.com|noojav.com|xn--72czpj4a8cd9b4d0em6dwa.com|2uhdmovie.com|lk-hd.com|doomovie-free.com|9nunghd.com|xn--24-3qi3cza1b2a4dxc2byb.com|xn--2022-zeo6d9azcwb2e5c8b5b.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com,2umv.com,xn--24-3qi3cza1b2a4dxc2byb.com,xn--2022-zeo6d9azcwb2e5c8b5b.com##[class^="banner-"]
-stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
+stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
 animedeku.com#%#//scriptlet('remove-attr', 'onclick', 'body')
 [$path=/\\/(?:movie|series)[a-zA-Z0-9-\\]*/]steamseries88.com,leoplayer5.com,domovie247.com#%#//scriptlet('trusted-replace-node-text', 'script', 'lads', '/let playlist = \[[\s\S]*?\];/', 'let playlist = null;')
 ||upfastfile.com/*/*.mp4$domain=stream1688.com
@@ -226,3 +226,6 @@ xn--82cx5bxbxbaau9g5c0a.net##div[id^="ads_"]
 xn--82cx5bxbxbaau9g5c0a.net###asplayer
 xn--82cx5bxbxbaau9g5c0a.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyObj')
 xn--82cx5bxbxbaau9g5c0a.net#$##video-player { display: block !important; }
+! v8-hdd.com
+v8-hdd.com##.row-kodsana-container
+v8-hdd.com##.row-kodsana
