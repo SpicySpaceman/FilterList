@@ -1,7 +1,7 @@
-! Checksum: y8waDFnenw/ZqWBclBndlg
+! Checksum: HObbjZ/VIUWGlNV2m+WrHg
 ! Title: Thai Filter
-! Version: 1
-! Last modified: 2026-01-10T21:02:04.681Z
+! Version: 2
+! Last modified: 2026-01-11T04:14:16.365Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -217,11 +217,20 @@ avsubthai.me,porn5xxx.com#%#//scriptlet('trusted-replace-node-text', 'script', '
 24-jav.com##.server
 24-jav.com###asplayer
 24-jav.com#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
+24-jav.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'hide_promo_1111')
 ! หนังผู้ใหญ่.net
 xn--72cm8an6ed3b4dwe6bh.net##.adcen
+xn--72cm8an6ed3b4dwe6bh.net##div[id^="slider-"]
 player.upnerd.net#%#//scriptlet('set-constant', 'adClips', 'emptyArr')
 ! แอพแดง.com
 xn--72cz3a0d5ec.com##.n-ban
 xn--72cz3a0d5ec.com##div[id^="ads_"]
 xn--72cz3a0d5ec.com###asplayer
-xn--72cz3a0d5ec.com#%#//scriptlet('trusted-replace-node-text', 'script', 'asVideoJson', 'v_player.hide()', 'v_player.show()')
+xn--72cz3a0d5ec.com#%#//scriptlet('set-constant', 'asVideoJson', 'emptyObj')
+xn--72cz3a0d5ec.com#$##player { display: block !important; }
+! เย็ดหีจ้าาา.net
+xn--82cx5bxbxbaau9g5c0a.net##div:has(> a[rel="dofollow"])
+xn--82cx5bxbxbaau9g5c0a.net##div[id^="ads_"]
+xn--82cx5bxbxbaau9g5c0a.net###asplayer
+xn--82cx5bxbxbaau9g5c0a.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyObj')
+xn--82cx5bxbxbaau9g5c0a.net#$##video-player { display: block !important; }
