@@ -1,7 +1,7 @@
-! Checksum: /T/XG+aFDsCdj2h1ijg0YQ
+! Checksum: tkWz4jbkD7E9eHrJBUs3Eg
 ! Title: Thai Filter
-! Version: 3
-! Last modified: 2026-01-11T05:11:48.027Z
+! Version: 4
+! Last modified: 2026-01-11T08:34:16.661Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -10,7 +10,7 @@
 !-------------- Movie sites ------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! General movie site rules
-/wp-content/uploads/*/*/*.gif$domain=v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--l3cmwb9e3d4b.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|moviefree247.com|447hd.com|monojav.cc|inwporn.com|avsubth.com|javsiam.com|av-subth.tv|anime-hit.com|cinemas1.com|24-hd.com|nung.tv|hubsmovie.com|donungfree.com|avsubthaix.tv|tvallseries.co|moviehd8k.com|dooseries4k.com|2umv.com|drama4k.com|noojav.com|xn--72czpj4a8cd9b4d0em6dwa.com|2uhdmovie.com|lk-hd.com|doomovie-free.com|9nunghd.com|xn--24-3qi3cza1b2a4dxc2byb.com|xn--2022-zeo6d9azcwb2e5c8b5b.com
+/wp-content/uploads/*/*/*.gif$domain=9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--l3cmwb9e3d4b.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|moviefree247.com|447hd.com|monojav.cc|inwporn.com|avsubth.com|javsiam.com|av-subth.tv|anime-hit.com|cinemas1.com|24-hd.com|nung.tv|hubsmovie.com|donungfree.com|avsubthaix.tv|tvallseries.co|moviehd8k.com|dooseries4k.com|2umv.com|drama4k.com|noojav.com|xn--72czpj4a8cd9b4d0em6dwa.com|2uhdmovie.com|lk-hd.com|doomovie-free.com|9nunghd.com|xn--24-3qi3cza1b2a4dxc2byb.com|xn--2022-zeo6d9azcwb2e5c8b5b.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com,2umv.com,xn--24-3qi3cza1b2a4dxc2byb.com,xn--2022-zeo6d9azcwb2e5c8b5b.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
@@ -237,3 +237,30 @@ xn--82cx5bxbxbaau9g5c0a.net#$##video-player { display: block !important; }
 ! v8-hdd.com
 v8-hdd.com##.row-kodsana-container
 v8-hdd.com##.row-kodsana
+! 037hddmovie.com
+037hddmovie.com##div[id^="ads-"]
+! 9nung.com
+9nung.com##a[rel="nofollow external noopener"]
+! animehdzerooo.com
+animehdzerooo.com##div[id^="ads_"]
+animehdzerooo.com##a[target="_blank"]
+||img.shirokami.me/images/*/*/*/*.gif$domain=animehdzerooo.com
+! animeruka.com
+animeruka.com##a[target="_blank"]
+animeruka.com###box-footer-fix
+animeruka.com#$#div[id^="box-side-"][style] { visibility: hidden !important; }
+||animeruka.com/ads/
+! animesusu.com
+animesusu.com##div[class^="Anadvertisement"]
+animesusu.com##a[target="_blank"]
+animesusu.com##div[class^="white_content"]
+||animesusu.com/Anime-Suba/Admin/imgAnadvertisement/*.gif
+! southernseoulva.com
+southernseoulva.com##.elementor-element:has(> .elementor-element > .elementor-element > a[target="_blank"])
+southernseoulva.com##div[id^="banner-"]
+! anime-indy.tv, team-indy.net
+anime-indy.tv##div[id^="ads"]
+anime-indy.tv###head_ass
+anime-indy.tv##a[rel="nofollow noopener"]
+team-indy.net###overlay
+team-indy.net#%#//scriptlet("set-constant", "player.vroll", "noopFunc")
