@@ -2,25 +2,25 @@
 !-------------- Movie sites ------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! General movie site rules
-/wp-content/uploads/*/*/*.gif$domain=9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--l3cmwb9e3d4b.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|moviefree247.com|447hd.com|monojav.cc|inwporn.com|avsubth.com|javsiam.com|av-subth.tv|anime-hit.com|cinemas1.com|24-hd.com|nung.tv|hubsmovie.com|donungfree.com|avsubthaix.tv|tvallseries.co|moviehd8k.com|dooseries4k.com|2umv.com|drama4k.com|noojav.com|xn--72czpj4a8cd9b4d0em6dwa.com|2uhdmovie.com|lk-hd.com|doomovie-free.com|9nunghd.com|xn--24-3qi3cza1b2a4dxc2byb.com|xn--2022-zeo6d9azcwb2e5c8b5b.com
+/wp-content/uploads/*/*/*.gif$domain=myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /image/*/*.gif$domain=animedeku.com
-mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com,2umv.com,xn--24-3qi3cza1b2a4dxc2byb.com,xn--2022-zeo6d9azcwb2e5c8b5b.com##[class^="banner-"]
+/uploads/*.gif$domain=srv.greatestglasses.com
+mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
 animedeku.com#%#//scriptlet('remove-attr', 'onclick', 'body')
 [$path=/\\/(?:movie|series)[a-zA-Z0-9-\\]*/]steamseries88.com,leoplayer5.com,domovie247.com#%#//scriptlet('trusted-replace-node-text', 'script', 'lads', '/let playlist = \[[\s\S]*?\];/', 'let playlist = null;')
 ||upfastfile.com/*/*.mp4$domain=stream1688.com
+||srv.greatestglasses.com^$domain=xn--72c6c2a3an.net|xn--2-wxfs4ab4gvepc.com
+||major.cyberlumina.com^$domain=xn--72c6c2a3an.net
 ! 928hd.com
 ||928hd.com/wp-content/uploads/*.gif
 928hd.com#?#.elementor-widget-image:has(> div > a[rel="nofollow noopener"])
 ! moviehdfree.net
 moviehdfree.net##a[rel="nofollow noopener noreferrer"]
 moviehdfree.net##.widget_media_image:has(> a[target="_blank"])
-! lk-hd.com
-lk-hd.com##.ads-above-single-player
-lk-hd.com##.ads-above-single
-lk-hd.com##.ds-popup
-! ดูหนังฟรี2022.com
-xn--2022-zeo6d9azcwb2e5c8b5b.com##.bottom-center
+! lk-hd3.com
+lk-hd3.com##.ads-above-single-player
+player.enjoy24cdn.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
 ! fw4free.com
 fw4free.com##div[id^="adsfooter"]
 fw4free.com#?#.text-center:has(> a[target="_blank"])
@@ -28,36 +28,19 @@ fw4free.com#?#.text-center:has(> a[target="_blank"])
 kubhd.com##.content_bg:has(> .grid-cols-bnn > .wp-bnn)
 ! doomovie.online
 doomovie.online##.container:has(> a[target="_blank"])
-! drama4k.com
-drama4k.com##a[target="_blank"]:has(> img[title="ads"])
 ! serieskodhit.com
 ||serieskodhit.com/images/banners/*.gif
 serieskodhit.com##a[href^="/ads/"]
-! moviehd8k.com
-moviehd8k.com##div[class^="banner-scrollbar-"]
-moviehd8k.com##.code-block:has(> a[target="_blank"] > img)
-! tvallseries.co
-tvallseries.co##a[rel="nofollow noopener noreferrer"]
+! moviehd-8k.com
+moviehd-8k.com##.banner
+moviehd-8k.com##.idmuvi-topplayer
+moviehd-8k.com##.idmuvi-banner-aftercontent
 ! movie2ufree.com
 movie2ufree.com##.ads-player-movie
 ! movie2uhd.com
 movie2uhd.com##.adcen
 ! 037movie4k.com
 ||037movie4k.com/src/videojs-preroll.js
-! donungfree.com
-donungfree.com##a[target="_blank"]
-donungfree.com##img[class*="wp-image-"]
-! hubsmovie.com
-hubsmovie.com##.banner-top
-hubsmovie.com##.bottom-center
-hubsmovie.com##.ad-left
-hubsmovie.com###reklamCodeiframe
-! nung.tv
-nung.tv##.sponsor
-! 24-hd.com
-24-hd.com##.ad
-24-hd.com##.adcen
-24-hd.com##.adl
 ! animeshiro.com
 ||blogger.googleusercontent.com/img/*/*.gif$third-party,domain=animeshiro.com
 ! anime-hoyo.com
@@ -68,9 +51,6 @@ animehdzeroo.com##div[id^="ads_"]
 animehdzeroo.com##.row:has(> div > div > div > div > a[rel*="sponsored"])
 ! newseries24.com
 newseries24.com##.ad-left
-! cinemas1.com
-cinemas1.com##.tt_bfx
-cinemas1.com##.tt_bfxr
 ! anime-hit.com
 anime-hit.com###adsR
 anime-hit.com##.watch-bnn
@@ -83,11 +63,6 @@ imgur.com/*.gif$third-party,domain=series-play.com|zmaxxx.com
 ! avkuy.com
 avkuy.com##center:has(> div > a[target="_blank"])
 avkuy.com##div[id^="ads_"]
-! javsiam.com
-javsiam.com##.adcen
-javsiam.com###slider-l
-javsiam.com###slider-r
-! javthaisub.com
 ! jav-th.cc
 jav-th.cc#?#.elementor-widget-image:has(> div > a[rel="noopener"])
 jav-th.cc#?#.above-content-sidebar:has(> div > .widget_media_image > a[href="https://app.viva66.com"])
@@ -98,10 +73,10 @@ avsubthai.io##.banner
 avsubthai.io##div[id^="ads"]
 avsubthai.io##.img_player
 avsubthai.io#$#.v-frame { display: inline !important; }
-! javbob.net, avsub69.com, javtai.com, inwporn.com, thegfporn.com
-thegfporn.com,inwporn.com,stream-lnw.com,javweb.net##div[id^="ads"]
+! javbob.net, avsub69.com, javtai.com, thegfporn.com
+thegfporn.com,stream-lnw.com,javweb.net##div[id^="ads"]
 stream-lnw.com,javweb.net#$##player { display: block !important; }
-thegfporn.com,inwporn.com#$##main { display: block !important; }
+thegfporn.com#$##main { display: block !important; }
 ! javtai.com
 javtai.com##center:has(> a > img[id="banner550all"])
 javtai.com###bt-ads
@@ -114,24 +89,20 @@ aoxx69.net###myModal
 aoxx69.net##.view_pirice_list
 aoxx69.net#%#//scriptlet('set-cookie', 'ageAuthentication', 'true')
 aoxx69.net#%#//scriptlet('set-cookie', 'member_last_time', 'true')
-! avsubth.com
-avsubth.com###bannermo550
-! inwporn.com
-inwporn.com##.adcen
-inwporn.com###slider-l
-inwporn.com###slider-r
+! inwporn3.com
+inwporn3.com##.adcen
 ! ดูหีไทย.com
 ||9king888.cc/assets/images/*.gif$third-party,domain=xn--l3cg7a8a0cwa3f.com
 xn--l3cg7a8a0cwa3f.com#?#center:has(> a[target="_blank"])
-! monojav.cc
-monojav.cc##.x_ax
 ! fwiptv.tv
 fwiptv.tv##div[class*="col-lg-"]:has(> a[target="_blank"] > img)
 ! 447hd.com
-447hd.com##div[id^="ads_player_"]
-447hd.com##div[id^="BannerScrollbar"]
-! moviefree247.com
-moviefree247.com##.above-player
+447hd.com##.banner
+! 24-movie.com
+24-movie.com##.banner-top
+24-movie.com##.bottom-center
+24-movie.com##.banner-right
+24-movie.com##.banner-left
 ! mvhd24.com
 mvhd24.com#?#.player-left > li
 mvhd24.com#?#.player-right > li
@@ -152,10 +123,13 @@ meow-anime.com##.epcl-banner
 ! ssdmovie.tv
 ssdmovie.tv#?#a[target="_blank"] > img
 ! เย็ดยับ.com
-xn--l3cmwb9e3d4b.com##.c-sidebar:has(.cat-ban > a[rel="nofollow"])
-xn--l3cmwb9e3d4b.com##.banner-video
-xn--l3cmwb9e3d4b.com###asplayer
-xn--l3cmwb9e3d4b.com#$##player { display: block !important; }
+xn--2-wxfs4ab4gvepc.com##.banner-video
+xn--2-wxfs4ab4gvepc.com##.c-top-sidebar
+xn--2-wxfs4ab4gvepc.com##div[id^="ads_"]
+xn--2-wxfs4ab4gvepc.com##.cat-ban
+xn--2-wxfs4ab4gvepc.com###asplayer
+xn--2-wxfs4ab4gvepc.com#$##player { display: block !important; }
+xn--2-wxfs4ab4gvepc.com#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
 ! หีงาม.com
 xn--72c6c2a3an.com###asplayer
 xn--72c6c2a3an.com#$##video-player { display: block !important; }
@@ -256,3 +230,16 @@ anime-indy.tv###head_ass
 anime-indy.tv##a[rel="nofollow noopener"]
 team-indy.net###overlay
 team-indy.net#%#//scriptlet("set-constant", "player.vroll", "noopFunc")
+! de88.me
+de88.cyou#%#//scriptlet('prevent-window-open')
+! หีงาม.net
+xn--72c6c2a3an.net##.hg-ad-center
+xn--72c6c2a3an.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
+xn--72c6c2a3an.net###asplayer
+xn--72c6c2a3an.net#$##video-player { display: block !important; }
+! av-thaisub.com
+av-thaisub.com##a[rel="nofollow noopener noreferrer"]
+! avsubthai3.com
+avsubthai3.com##.adcen
+! series-fulls.com
+series-fulls.com##a[rel="nofollow noopener noreferrer"]
