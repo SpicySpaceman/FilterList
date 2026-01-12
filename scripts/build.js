@@ -80,7 +80,7 @@ async function build() {
         const srcPath = path.join(SRC_DIR, file);
         const outPath = path.join(OUT_DIR, file);
         const name = path.basename(file, '.txt');
-        const title = name.charAt(0).toUpperCase() + name.slice(1) + ' Filter';
+        const title = 'SpicySpaceman - ' + name.charAt(0).toUpperCase() + name.slice(1) + ' Filter';
 
         // Read Source
         const srcRules = fs.readFileSync(srcPath, 'utf8').trim();
