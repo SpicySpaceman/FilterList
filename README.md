@@ -6,9 +6,9 @@ Collection of custom AdGuard filters properly versioned and validated.
 
 | Filter | Description | Subscription Link |
 |--------|-------------|-------------------|
-| **English Filter** | Custom rules for English sites | [Subscribe](https://raw.githubusercontent.com/SpicySpaceman/FilterList/main/filters/english.txt) |
-| **German Filter** | Custom rules for German sites | [Subscribe](https://raw.githubusercontent.com/SpicySpaceman/FilterList/main/filters/german.txt) |
-| **Thai Filter** | Custom rules for Thai sites | [Subscribe](https://raw.githubusercontent.com/SpicySpaceman/FilterList/main/filters/thai.txt) |
+| **English Filter** | Custom rules for English sites. This filter currently has no rules. Rules will be added in the future for sites AdGuard won't fix. | [Subscribe](https://raw.githubusercontent.com/SpicySpaceman/FilterList/main/filters/english.txt) |
+| **German Filter** | Custom rules for German sites. This filter currently has no rules. Rules will be added in the future for sites AdGuard won't fix. | [Subscribe](https://raw.githubusercontent.com/SpicySpaceman/FilterList/main/filters/german.txt) |
+| **Thai Filter** | Custom rules for Thai sites. Mostly covering movie/video streaming sites. | [Subscribe](https://raw.githubusercontent.com/SpicySpaceman/FilterList/main/filters/thai.txt) |
 
 ## Contributing
 
