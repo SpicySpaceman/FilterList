@@ -18,7 +18,6 @@
   "license": "MIT",
   "homepage": "https://github.com/SpicySpaceman/FilterList#readme",
   "devDependencies": {
-    "@adguard/aglint": "^3.0.2",
-    "@adguard/dead-domains-linter": "^1.0.33"
+    "@adguard/aglint": "^3.0.2"
   }
 }
