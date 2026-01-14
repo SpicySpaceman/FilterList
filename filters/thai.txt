@@ -1,7 +1,7 @@
-! Checksum: PFlF8nyBPDgaPiUYgWnIcQ
+! Checksum: Nm/Wl3B+jsTeB2NOrD0fiw
 ! Title: SpicySpaceman - Thai Filter
-! Version: 6
-! Last modified: 2026-01-13T09:13:58.887Z
+! Version: 7
+! Last modified: 2026-01-14T07:12:45.081Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -10,16 +10,16 @@
 !-------------- Movie sites ------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! General movie site rules
-/wp-content/uploads/*/*/*.gif$domain=movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+||srv.greatestglasses.com^
+/wp-content/uploads/*/*/*.gif$domain=xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /image/*/*.gif$domain=animedeku.com
-/uploads/*.gif$domain=srv.greatestglasses.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
 animedeku.com#%#//scriptlet('remove-attr', 'onclick', 'body')
 [$path=/\\/(?:movie|series)[a-zA-Z0-9-\\]*/]steamseries88.com,leoplayer5.com,domovie247.com#%#//scriptlet('trusted-replace-node-text', 'script', 'lads', '/let playlist = \[[\s\S]*?\];/', 'let playlist = null;')
 ||upfastfile.com/*/*.mp4$domain=stream1688.com
-||srv.greatestglasses.com^$domain=xn--72c6c2a3an.net|xn--2-wxfs4ab4gvepc.com|xn--2-2xf6abcy3a4fvg.com
 ||major.cyberlumina.com^$domain=xn--72c6c2a3an.net
+||blogger.googleusercontent.com/img/*.gif^$image,domain=nungxthai.me|xxxnung.tv
 ! 928hd.com
 ||928hd.com/wp-content/uploads/*.gif
 928hd.com#?#.elementor-widget-image:has(> div > a[rel="nofollow noopener"])
@@ -49,8 +49,6 @@ movie2ufree.com##.ads-player-movie
 movie2uhd.com##.adcen
 ! 037movie4k.com
 ||037movie4k.com/src/videojs-preroll.js
-! animeshiro.com
-||blogger.googleusercontent.com/img/*/*.gif$third-party,domain=animeshiro.com
 ! anime-hoyo.com
 ||image.manhwathaiplus.net/*/*.gif$third-party,domain=anime-hoyo.com
 ! animehdzeroo.com
@@ -99,9 +97,6 @@ aoxx69.net#%#//scriptlet('set-cookie', 'ageAuthentication', 'true')
 aoxx69.net#%#//scriptlet('set-cookie', 'member_last_time', 'true')
 ! inwporn3.com
 inwporn3.com##.adcen
-! ดูหีไทย.com
-||9king888.cc/assets/images/*.gif$third-party,domain=xn--l3cg7a8a0cwa3f.com
-xn--l3cg7a8a0cwa3f.com#?#center:has(> a[target="_blank"])
 ! fwiptv.tv
 fwiptv.tv##div[class*="col-lg-"]:has(> a[target="_blank"] > img)
 ! 447hd.com
@@ -275,3 +270,23 @@ milwaukeechambertheatre.com##figure:has(> a[target="_blank"])
 ! movie2freehd.com
 movie2freehd.com##.bottom-center
 movie2freehd.com##.ad-left
+! nungxthai.me
+heeporn.me###asplayer
+heeporn.me#$#div[id="player-container"] { display: block !important; }
+heeporn.me#%#//scriptlet('trusted-replace-node-text', 'script', 'asVideoJson', 'const asVideoJson', 'startJW();const asVideoJson2')
+heeporn.me###custom-play-button
+! แอพแดง.net
+xn--72cz3a0d5ec.net##.n-ban
+xn--72cz3a0d5ec.net###asplayer
+xn--72cz3a0d5ec.net#$##player { display: block !important; }
+xn--72cz3a0d5ec.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
+! xxxpostpic.org
+||home.xxxpostpic.org/*/head-single.php
+! xxxdee.me
+xxxdee.me#%#//scriptlet('remove-class', 'd-md-block|d-lg-none|d-xl-block', 'div[class^="d-none"]')
+xxxdee.me##div:has(> .video-block-happy)
+xxxdee.me##center:has(> a > img)
+xxxdee.me##center:has(> div > div > a[rel="nofollow"])
+xxxdee.me##div[id^="ads_"]
+! ดูหนังโป๊มาใหม่.com
+xn--72czpj4aa9de4cn4ewfqa6eya.com##.adcen
