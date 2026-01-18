@@ -1,7 +1,7 @@
-! Checksum: Nm/Wl3B+jsTeB2NOrD0fiw
+! Checksum: 48M77k3vRIpsK4gfm5t/6g
 ! Title: SpicySpaceman - Thai Filter
-! Version: 7
-! Last modified: 2026-01-14T07:12:45.081Z
+! Version: 8
+! Last modified: 2026-01-18T10:26:33.890Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -11,7 +11,7 @@
 !---------------------------------------------------------------------------!
 ! General movie site rules
 ||srv.greatestglasses.com^
-/wp-content/uploads/*/*/*.gif$domain=xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
@@ -290,3 +290,11 @@ xxxdee.me##center:has(> div > div > a[rel="nofollow"])
 xxxdee.me##div[id^="ads_"]
 ! ดูหนังโป๊มาใหม่.com
 xn--72czpj4aa9de4cn4ewfqa6eya.com##.adcen
+! mlive3211.net
+mlive3211.net##div:has(> .adsok)
+mlive3211.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
+mlive3211.net###asplayer
+mlive3211.net#$##player { display: block !important; }
+! เย็ดดุ.com
+xn--l3ca4b8epb5b.com##a[rel="nofollow external noopener noreferrer"]
+||bananaloves.com/banners/adsme.gif
