@@ -296,3 +296,9 @@ xn--l3ca4b8epb5b.com##a[rel="nofollow external noopener noreferrer"]
 kserietv.co###ad-float
 ||cdn.fembed.co/*/tracker.min.js
 ||playcdn.kserietv.com/vast.xml
+! kahirihome.com
+kahirihome.com##.fixed-banner
+kahirihome.com##.elementor-element:has(> a[rel="nofollow"])
+kahirihome.com#%#//scriptlet("trusted-replace-node-text", "script", "ads", "postrollImg =", "postrollImg = '', postrollImg2 =")
+! หนังโป้ฟรี.com
+xn--72c9ahqu7b4bxb3h1c.com##.adcen
