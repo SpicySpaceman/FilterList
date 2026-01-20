@@ -1,7 +1,7 @@
-! Checksum: jGLizyQDWfbJBoLr8F/wXQ
+! Checksum: Yx86LHLN3+LBRT+03r6Ffw
 ! Title: SpicySpaceman - Thai Filter
-! Version: 9
-! Last modified: 2026-01-18T15:31:18.567Z
+! Version: 10
+! Last modified: 2026-01-20T19:58:59.849Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -304,3 +304,9 @@ xn--l3ca4b8epb5b.com##a[rel="nofollow external noopener noreferrer"]
 kserietv.co###ad-float
 ||cdn.fembed.co/*/tracker.min.js
 ||playcdn.kserietv.com/vast.xml
+! kahirihome.com
+kahirihome.com##.fixed-banner
+kahirihome.com##.elementor-element:has(> a[rel="nofollow"])
+kahirihome.com#%#//scriptlet("trusted-replace-node-text", "script", "ads", "postrollImg =", "postrollImg = '', postrollImg2 =")
+! หนังโป้ฟรี.com
+xn--72c9ahqu7b4bxb3h1c.com##.adcen
