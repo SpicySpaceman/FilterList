@@ -304,3 +304,26 @@ kahirihome.com#%#//scriptlet("trusted-replace-node-text", "script", "ads", "post
 xn--72c9ahqu7b4bxb3h1c.com##.adcen
 ! subserieshd.stream, thaijaroenthachang.com
 ||playermhd.p2phls.xyz/vast.xml
+! thegfporno.com
+thegfporno.com##.adcen
+! พร้อมเย็ดดด.net
+xn--l3caa1bpgf4fuivcr.net##.pyt-ads
+xn--l3caa1bpgf4fuivcr.net##div[id^="ad-bnr-"]
+xn--l3caa1bpgf4fuivcr.net##.pmyt-bd
+plyxxx.com#%#//scriptlet('trusted-replace-node-text', 'script', 'prePlayer', 'currentIndex=0', 'currentIndex=9999')
+! av-subthaix.net
+av-subthaix.net##.b-ads
+||avkuy.net/image/*.gif
+! aoxx69.vip
+aoxx69.vip##.splide
+aoxx69.vip##div:has(> a[target^="ad"])
+aoxx69.vip##.touch_icon_ball
+aoxx69.vip##.index_icon_down
+aoxx69.vip##.view_ad_door
+aoxx69.vip##.toast
+aoxx69.vip##.view_pirice_list
+aoxx69.vip##.topAdImgOutStyle
+aoxx69.vip##div[id^="adsplayer"]
+aoxx69.vip##.skip_img_text
+aoxx69.vip##div:has(> span[id="colsead"])
+aoxx69.vip#%#//scriptlet('adjust-setTimeout', 'topimgad', '*', '0.001')
