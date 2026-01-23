@@ -302,3 +302,5 @@ kahirihome.com##.elementor-element:has(> a[rel="nofollow"])
 kahirihome.com#%#//scriptlet("trusted-replace-node-text", "script", "ads", "postrollImg =", "postrollImg = '', postrollImg2 =")
 ! หนังโป้ฟรี.com
 xn--72c9ahqu7b4bxb3h1c.com##.adcen
+! subserieshd.stream, thaijaroenthachang.com
+||playermhd.p2phls.xyz/vast.xml
