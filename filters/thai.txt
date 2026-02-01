@@ -1,7 +1,7 @@
-! Checksum: q3VNOUV6ckkxCguXLf5lnQ
+! Checksum: Fsxu14N1EakLjg3jzHb+RQ
 ! Title: SpicySpaceman - Thai Filter
-! Version: 12
-! Last modified: 2026-01-23T18:37:22.072Z
+! Version: 13
+! Last modified: 2026-02-01T07:56:38.947Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -11,7 +11,7 @@
 !---------------------------------------------------------------------------!
 ! General movie site rules
 ||srv.greatestglasses.com^
-/wp-content/uploads/*/*/*.gif$domain=kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
@@ -151,8 +151,8 @@ xn--72c6c2a3an.com##.hee-bnn
 ! เย็ดยับ.com
 xn--l3cmwb9e3d4b.com##.cat-ban
 xn--l3cmwb9e3d4b.com##div[id^="ads_"]
-! rov69.com
-rov69.com##a[target="_blank"]:has(img)
+! rov-69.com
+rov-69.com##a[target="_blank"]:has(> img)
 ! 25-hd.com
 25-hd.com##.banner
 25-hd.com##.player-promo-box
@@ -335,3 +335,12 @@ aoxx69.vip##div[id^="adsplayer"]
 aoxx69.vip##.skip_img_text
 aoxx69.vip##div:has(> span[id="colsead"])
 aoxx69.vip#%#//scriptlet('adjust-setTimeout', 'topimgad', '*', '0.001')
+# subserieshd.com
+subserieshd.com###bt-ads-mini
+# anime108.com
+anime108.com##.adcen2
+anime108.com##.adc
+anime108.com##.right-menu > section[class^="adlf"]
+# leahee.com
+leahee.com##a[rel*="nofollow external noopener noreferrer"]
+leahee.com###asplayer
