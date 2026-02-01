@@ -1,7 +1,7 @@
-! Checksum: Fsxu14N1EakLjg3jzHb+RQ
+! Checksum: psS1bRkPk0sIFoNvggHoZQ
 ! Title: SpicySpaceman - Thai Filter
-! Version: 13
-! Last modified: 2026-02-01T07:56:38.947Z
+! Version: 14
+! Last modified: 2026-02-01T08:00:11.942Z
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -49,8 +49,6 @@ movie2ufree.com##.ads-player-movie
 movie2uhd.com##.adcen
 ! 037movie4k.com
 ||037movie4k.com/src/videojs-preroll.js
-! anime-hoyo.com
-||image.manhwathaiplus.net/*/*.gif$third-party,domain=anime-hoyo.com
 ! animehdzeroo.com
 ||shirokami.me/*/*.gif$third-party,domain=animehdzeroo.com
 animehdzeroo.com##div[id^="ads_"]
