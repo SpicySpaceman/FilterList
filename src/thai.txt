@@ -41,8 +41,6 @@ movie2ufree.com##.ads-player-movie
 movie2uhd.com##.adcen
 ! 037movie4k.com
 ||037movie4k.com/src/videojs-preroll.js
-! anime-hoyo.com
-||image.manhwathaiplus.net/*/*.gif$third-party,domain=anime-hoyo.com
 ! animehdzeroo.com
 ||shirokami.me/*/*.gif$third-party,domain=animehdzeroo.com
 animehdzeroo.com##div[id^="ads_"]
