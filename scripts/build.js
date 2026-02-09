@@ -120,7 +120,7 @@ async function build() {
                 `! Title: ${title}`,
                 `! Version: ${version}`,
                 `! Last modified: ${getTimestamp()}`,
-                `! Expires: 24 hours (update frequency)`,
+                `! Expires: 4 hours (update frequency)`,
                 `! Homepage: https://github.com/SpicySpaceman/FilterList`,
                 `! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE`,
                 `!`
