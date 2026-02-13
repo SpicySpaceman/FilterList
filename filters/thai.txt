@@ -1,7 +1,7 @@
-! Checksum: 9C1XN9WWh+6NbAnIyqZ5cA
+! Checksum: Syk61a2mv28wq9uxU8nN4Q
 ! Title: SpicySpaceman - Thai Filter
-! Version: 15
-! Last modified: 2026-02-09T13:47:31.927Z
+! Version: 16
+! Last modified: 2026-02-13T18:32:09.633Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -346,3 +346,9 @@ leahee.com###asplayer
 # เย็ดสบัด2.com
 xn--2-wxfax2bxc9bzguc.com##div[style]:has(> a[rel="nofollow sponsored external noopener noreferrer"])
 xn--2-wxfax2bxc9bzguc.com#$##main-video-container { display: block !important; }
+# dbzcon.com
+dbzcon.com##div:has(> div > a[target="_blank"][rel="nofollow"] > img)
+dbzcon.com##div:has(> a[rel="nofollow noopener noreferrer external"] > img)
+# okserie.com
+okserie.com##div:has(> a[rel="nofollow sponsored noopener noreferrer"] > img)
+||kseries.playhdhls.xyz/vast.xml
