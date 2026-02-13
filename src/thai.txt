@@ -338,3 +338,9 @@ leahee.com###asplayer
 # เย็ดสบัด2.com
 xn--2-wxfax2bxc9bzguc.com##div[style]:has(> a[rel="nofollow sponsored external noopener noreferrer"])
 xn--2-wxfax2bxc9bzguc.com#$##main-video-container { display: block !important; }
+# dbzcon.com
+dbzcon.com##div:has(> div > a[target="_blank"][rel="nofollow"] > img)
+dbzcon.com##div:has(> a[rel="nofollow noopener noreferrer external"] > img)
+# okserie.com
+okserie.com##div:has(> a[rel="nofollow sponsored noopener noreferrer"] > img)
+||kseries.playhdhls.xyz/vast.xml
