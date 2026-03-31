@@ -347,8 +347,8 @@ okserie.com##div:has(> a[rel="nofollow sponsored noopener noreferrer"] > img)
 ! หีหอม3.net
 xn--3-nyf3aak0c.net##.dac-section--banner
 xn--3-nyf3aak0c.net##.dac-section--float
-plyxxx.com###player_movie ~ div:has(> div > a[rel="noopener noreferrer nofollow"])
-plyxxx.com##.jw-logo-top-left
+plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "prePlaylist", "prePlaylist=", "prePlaylist={items:[]}, prePlaylist2=")
+plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "promoMap", "promoMap=", "promoMap={}, promoMap2=")
 ! unrealities.com, coronatracker.com, code2cook.com
 unrealities.com,coronatracker.com,code2cook.com##center:has(> a[target="_blank"])
 unrealities.com,coronatracker.com,code2cook.com###custom-promo-popup-overlay
