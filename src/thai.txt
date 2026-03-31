@@ -4,7 +4,8 @@
 ! General movie site rules
 ||srv.greatestglasses.com^
 ||warphub69.com^
-/wp-content/uploads/*/*/*.gif$domain=leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*.gif$domain=unrealities.com|928hd.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
@@ -14,7 +15,6 @@ animedeku.com#%#//scriptlet('remove-attr', 'onclick', 'body')
 ||major.cyberlumina.com^$domain=xn--72c6c2a3an.net
 ||blogger.googleusercontent.com/img/*.gif^$image,domain=nungxthai.me|xxxnung.tv
 ! 928hd.com
-||928hd.com/wp-content/uploads/*.gif
 928hd.com#?#.elementor-widget-image:has(> div > a[rel="nofollow noopener"])
 ! moviehdfree.net
 moviehdfree.net##a[rel="nofollow noopener noreferrer"]
@@ -344,3 +344,23 @@ dbzcon.com##div:has(> a[rel="nofollow noopener noreferrer external"] > img)
 # okserie.com
 okserie.com##div:has(> a[rel="nofollow sponsored noopener noreferrer"] > img)
 ||kseries.playhdhls.xyz/vast.xml
+# หีหอม3.net
+xn--3-nyf3aak0c.net##.dac-section--banner
+xn--3-nyf3aak0c.net##.dac-section--float
+plyxxx.com###player_movie ~ div:has(> div > a[rel="noopener noreferrer nofollow"])
+plyxxx.com##.jw-logo-top-left
+# unrealities.com
+unrealities.com##center:has(> a[target="_blank"])
+unrealities.com###custom-promo-popup-overlay
+unrealities.com###asplayer
+unrealities.com#$##main-player { display: block !important; }
+# coronatracker.com
+coronatracker.com##center:has(> a[target="_blank"])
+coronatracker.com###custom-promo-popup-overlay
+coronatracker.com###asplayer
+coronatracker.com#$##main-player { display: block !important; }
+# code2cook.com
+code2cook.com##center:has(> a[target="_blank"])
+code2cook.com###custom-promo-popup-overlay
+code2cook.com###asplayer
+code2cook.com#$##main-player { display: block !important; }
