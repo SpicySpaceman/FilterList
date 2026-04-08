@@ -1,7 +1,7 @@
-! Checksum: rww2h42qiGnTmgKn27xXTQ
+! Checksum: Gv0kl6RY1zC1IN+00BydrQ
 ! Title: SpicySpaceman - Thai Filter
-! Version: 21
-! Last modified: 2026-04-08T18:18:14.091Z
+! Version: 22
+! Last modified: 2026-04-08T18:30:18.296Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -297,6 +297,7 @@ mlive3211.net###asplayer
 mlive3211.net#$##player { display: block !important; }
 mlive3211.net##div:has(> a[rel="nofollow"])
 mlive3211.net##.widget-info
+cyberlumina.com###overlay
 ! เย็ดดุ.com
 xn--l3ca4b8epb5b.com##a[rel="nofollow external noopener noreferrer"]
 ||bananaloves.com/banners/adsme.gif
