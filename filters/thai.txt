@@ -1,7 +1,7 @@
-! Checksum: //v/rOM1nnMsQbmO92UUWg
+! Checksum: 7Gv/wCaPoI4HBK2WZ4fW3Q
 ! Title: SpicySpaceman - Thai Filter
-! Version: 23
-! Last modified: 2026-04-08T18:42:12.612Z
+! Version: 24
+! Last modified: 2026-04-08T19:50:21.764Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -12,7 +12,7 @@
 ! General movie site rules
 ||srv.greatestglasses.com^
 ||warphub69.com^
-/wp-content/uploads/*/*/*.gif$domain=owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=nunghd4k.com|owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /wp-content/uploads/*.gif$domain=unrealities.com|928hd.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
@@ -339,6 +339,7 @@ aoxx69.vip##div:has(> span[id="colsead"])
 aoxx69.vip#%#//scriptlet('adjust-setTimeout', 'topimgad', '*', '0.001')
 ! subserieshd.com
 subserieshd.com###bt-ads-mini
+subserieshd.com###bt-ads-mini2
 ! anime108.com
 anime108.com##.adcen2
 anime108.com##.adc
@@ -371,3 +372,21 @@ owdin.live,migenweb.net,unrealities.com,coronatracker.com,code2cook.com#%#//scri
 lendo.org##.banner-wrapper
 ! owdin.live
 owdin.live##.banner-grid
+! joryai4k.com
+joryai4k.com##.footer-ad-container
+! 24hd.net
+24hd.net##div[data-widget_type="image.default"]
+||player77hdfree.xyz/vast.xml
+! nunghd4k.com
+nunghd4k.com##div[style]:has(> a[rel="nofollow"][target="_blank"] > img)
+nunghd4k.com##a[rel="nofollow"][target="_blank"]
+nunghd4k.com#%#//scriptlet("trusted-replace-node-text", "script", "finalVideoPlayed", "finalVideoPlayed = false", "finalVideoPlayed = true")
+! allinhd.com
+allinhd.com##.adzz-2
+allinhd.com##.side-banner
+allinhd.com###banner_popup
+allinhd.com#%#//scriptlet("trusted-replace-node-text", "script", "window.adSettings", "window.adSettings =", "window.adSettings = [];window.adSettings2 =")
+! เย็ดหีจ้า2.com
+xn--2-7wf9a3c4b3bt8f0cya.com##.yhj-cen
+xn--2-7wf9a3c4b3bt8f0cya.com###asplayer
+xn--2-7wf9a3c4b3bt8f0cya.com#$##video-player { display: block !important; }
