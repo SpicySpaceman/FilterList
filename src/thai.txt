@@ -4,7 +4,7 @@
 ! General movie site rules
 ||srv.greatestglasses.com^
 ||warphub69.com^
-/wp-content/uploads/*/*/*.gif$domain=code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--72czpbj7gtbe3e0e3d.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|ssdmovie.tv|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /wp-content/uploads/*.gif$domain=unrealities.com|928hd.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
@@ -287,6 +287,8 @@ mlive3211.net##div:has(> .adsok)
 mlive3211.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
 mlive3211.net###asplayer
 mlive3211.net#$##player { display: block !important; }
+mlive3211.net##div:has(> a[rel="nofollow"])
+mlive3211.net##.widget-info
 ! เย็ดดุ.com
 xn--l3ca4b8epb5b.com##a[rel="nofollow external noopener noreferrer"]
 ||bananaloves.com/banners/adsme.gif
@@ -347,11 +349,14 @@ okserie.com##div:has(> a[rel="nofollow sponsored noopener noreferrer"] > img)
 ! หีหอม3.net
 xn--3-nyf3aak0c.net##.dac-section--banner
 xn--3-nyf3aak0c.net##.dac-section--float
+plyxxx.com##.jw-logo-top-left
 plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "prePlaylist", "prePlaylist=", "prePlaylist={items:[]}, prePlaylist2=")
 plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "promoMap", "promoMap=", "promoMap={}, promoMap2=")
-! unrealities.com, coronatracker.com, code2cook.com
-unrealities.com,coronatracker.com,code2cook.com##center:has(> a[target="_blank"])
-unrealities.com,coronatracker.com,code2cook.com###custom-promo-popup-overlay
-unrealities.com,coronatracker.com,code2cook.com##.side-skyscraper
-unrealities.com,coronatracker.com,code2cook.com#%#//scriptlet("trusted-replace-node-text", "script", "loadAd", "asVideoJson =", "asVideoJson = [], asVideoJson2 =")
-unrealities.com,coronatracker.com,code2cook.com#%#//scriptlet("trusted-replace-node-text", "script", "loadAd", "showStickyBanner();", "showStickyBanner2();")
+! lendo.org, migenweb.net, unrealities.com, coronatracker.com, code2cook.com
+migenweb.net,unrealities.com,coronatracker.com,code2cook.com##center:has(> a[target="_blank"])
+lendo.org,migenweb.net,unrealities.com,coronatracker.com,code2cook.com###custom-promo-popup-overlay
+migenweb.net,unrealities.com,coronatracker.com,code2cook.com##.side-skyscraper
+lendo.org,migenweb.net,unrealities.com,coronatracker.com,code2cook.com#%#//scriptlet("trusted-replace-node-text", "script", "loadAd", "asVideoJson =", "asVideoJson = [], asVideoJson2 =")
+migenweb.net,unrealities.com,coronatracker.com,code2cook.com#%#//scriptlet("trusted-replace-node-text", "script", "loadAd", "showStickyBanner();", "showStickyBanner2();")
+! lendo.org
+lendo.org##.banner-wrapper
