@@ -289,6 +289,7 @@ mlive3211.net###asplayer
 mlive3211.net#$##player { display: block !important; }
 mlive3211.net##div:has(> a[rel="nofollow"])
 mlive3211.net##.widget-info
+cyberlumina.com###overlay
 ! เย็ดดุ.com
 xn--l3ca4b8epb5b.com##a[rel="nofollow external noopener noreferrer"]
 ||bananaloves.com/banners/adsme.gif
