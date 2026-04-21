@@ -1,7 +1,7 @@
-! Checksum: Dq5j2FDe9aubU/MbHshlDw
+! Checksum: 4xwO8OaIZv8p2rYZLDQOAw
 ! Title: SpicySpaceman - Thai Filter
-! Version: 26
-! Last modified: 2026-04-09T20:39:49.212Z
+! Version: 27
+! Last modified: 2026-04-21T16:38:42.463Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -12,7 +12,7 @@
 ! General movie site rules
 ||srv.greatestglasses.com^
 ||warphub69.com^
-/wp-content/uploads/*/*/*.gif$domain=xn--72cz0evbxczc.net|xn--y3cta3b5d6a.net|xn--3-7wf0bya3bzfvepc.net|nunghd4k.com|owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=xn--72caa3cygoc0d9c.com|xn--72cz0evbxczc.net|xn--y3cta3b5d6a.net|xn--3-7wf0bya3bzfvepc.net|nunghd4k.com|owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--2-wxfs4ab4gvepc.com|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /wp-content/uploads/*.gif$domain=unrealities.com|928hd.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
@@ -401,3 +401,10 @@ xn--y3cta3b5d6a.net##div:has(> a[rel="nofollow sponsored external noopener noref
 ! เด้งหี.net
 xn--72cz0evbxczc.net##a[rel="nofollow"]
 xn--72cz0evbxczc.net##div[id^="ads_"]
+! ดูหนังโป๊เทพ.com
+xn--72czkglt0g3b1dydua1h.com##.adcen
+! หีสด.com
+xn--l3c7bc4b.com##.custom-top-video-banner
+! หีเด้งงง.com
+||watermelogic.com/assets/*.gif$third-party,domain=xn--72caa3cygoc0d9c.com
+xn--72caa3cygoc0d9c.com##.dac-section
