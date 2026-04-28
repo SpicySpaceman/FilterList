@@ -1,7 +1,7 @@
-! Checksum: 4tH/EFQ+wKDoTYmIbiJDxQ
+! Checksum: lqfrm3hCLrPKMA7pil9Kxg
 ! Title: SpicySpaceman - Thai Filter
-! Version: 29
-! Last modified: 2026-04-27T07:42:47.681Z
+! Version: 30
+! Last modified: 2026-04-28T15:01:43.079Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -439,3 +439,22 @@ xn--2-wxf7akh2i2cvc.net#$##main-player { display: block !important; }
 yedsod.net##.banner-row
 yedsod.net###block-32
 yedsod.net###rt-start-overlay
+! olf123.org
+olf123.org##.b-top-home
+olf123.org##.cl-sport
+olf123.org##.b-top-video
+olf123.org##.b-left-home
+olf123.org##.banner-fixed-right
+olf123.org##.b-bottom-video
+olf123.org##.b-center-video
+mlive.video###overlay
+mlive.video#%#//scriptlet('set-session-storage-item', 'devtool', '$remove$')
+! onlyfree.vip
+onlyfree.vip###show_ads_c1
+onlyfree.vip##div:has(> a[target="_blank"] > img)
+onlyfree.vip##div[id^="player_ads_"]
+onlyfree.vip#$##player_movie { display: block !important; }
+! หนังโป๊เด้อ.net
+xn--72c0anj1fqy6jqa7ei.net##.adcen
+xn--72c0anj1fqy6jqa7ei.net###slider-l
+xn--72c0anj1fqy6jqa7ei.net#%#//scriptlet("trusted-replace-node-text", "script", "darkVPConfig", "darkVPConfig =", "darkVPConfig = {},darkVPConfig2 =")
