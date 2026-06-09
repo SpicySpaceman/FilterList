@@ -1,7 +1,7 @@
-! Checksum: xq7Xq+CXVP4rotLMczmpXw
+! Checksum: uM0EMM0vcZHJ9FKrWzIEmQ
 ! Title: SpicySpaceman - Thai Filter
-! Version: 31
-! Last modified: 2026-06-09T19:41:09.410Z
+! Version: 32
+! Last modified: 2026-06-09T20:00:26.455Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -463,3 +463,8 @@ xn--3-7wf9a3c4b3bt8f0cya.net##.yhj-cen
 xn--3-7wf9a3c4b3bt8f0cya.net##.widget-info
 xn--3-7wf9a3c4b3bt8f0cya.net###asplayer
 xn--3-7wf9a3c4b3bt8f0cya.net#$##video-player { display: block !important; }
+! javxhub.net
+||rewraproundingsixtieth.com/*.js$third-party
+||badlandlispyippee.com/*.js$third-party
+||detoxifylagoonsnugness.com/*.js$third-party
+javxhub.net##.sAds
