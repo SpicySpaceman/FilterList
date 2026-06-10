@@ -4,7 +4,7 @@
 ! General movie site rules
 ||srv.greatestglasses.com^
 ||warphub69.com^
-/wp-content/uploads/*/*/*.gif$domain=xn--3-7wf9a3c4b3bt8f0cya.net|xn--2-twfsc4dia3uybyf.com|moviefree-hd.com|xn--72caa3cygoc0d9c.com|xn--72cz0evbxczc.net|xn--y3cta3b5d6a.net|xn--3-7wf0bya3bzfvepc.net|nunghd4k.com|owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--3-wxfs4ab4gvepc.com|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
+/wp-content/uploads/*/*/*.gif$domain=xn--12c1ezaww.com|warpav.net|xn--3-7wf9a3c4b3bt8f0cya.net|xn--2-twfsc4dia3uybyf.com|moviefree-hd.com|xn--72caa3cygoc0d9c.com|xn--72cz0evbxczc.net|xn--y3cta3b5d6a.net|xn--3-7wf0bya3bzfvepc.net|nunghd4k.com|owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--3-wxfs4ab4gvepc.com|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /wp-content/uploads/*.gif$domain=xn--2-wxf7akh2i2cvc.net|unrealities.com|928hd.com
 /image/*/*.gif$domain=animedeku.com
 mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
@@ -348,8 +348,8 @@ okserie.com##div:has(> a[rel="nofollow sponsored noopener noreferrer"] > img)
 xn--3-nyf3aak0c.net##.dac-section--banner
 xn--3-nyf3aak0c.net##.dac-section--float
 plyxxx.com##.jw-logo-top-left
-plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "prePlaylist", "prePlaylist=", "prePlaylist={items:[]}, prePlaylist2=")
-plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "promoMap", "promoMap=", "promoMap={}, promoMap2=")
+plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "prePlaylist", "prePlaylist =", "prePlaylist={items:[]}, prePlaylist2=")
+plyxxx.com#%#//scriptlet("trusted-replace-node-text", "script", "promoMap", "promoMap =", "promoMap={}, promoMap2=")
 ! lendo.org, migenweb.net, unrealities.com, coronatracker.com, code2cook.com
 owdin.live,migenweb.net,unrealities.com,coronatracker.com,code2cook.com##center:has(> a[target="_blank"])
 owdin.live,lendo.org,migenweb.net,unrealities.com,coronatracker.com,code2cook.com###custom-promo-popup-overlay
@@ -460,3 +460,7 @@ xn--3-7wf9a3c4b3bt8f0cya.net#$##video-player { display: block !important; }
 ||badlandlispyippee.com/*.js$third-party
 ||detoxifylagoonsnugness.com/*.js$third-party
 javxhub.net##.sAds
+! warpav.net
+warpav.net##.acf-bn-wrap
+! รักหี.com
+xn--12c1ezaww.com##.dac-section
