@@ -1,7 +1,7 @@
-! Checksum: JjCE4JGyRKilXm2LnUiO0g
+! Checksum: QaMzsluOgZ28BGSDaMSQ5g
 ! Title: SpicySpaceman - Thai Filter
-! Version: 33
-! Last modified: 2026-06-10T10:26:47.643Z
+! Version: 34
+! Last modified: 2026-06-26T09:03:07.597Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -122,14 +122,14 @@ anifume.com##div[id^="display-"]
 overmovies.com#?#a[rel="nofollow"][target="_blank"]:has(> img)
 ! meow-anime.com
 meow-anime.com##.epcl-banner
-! เย็ดยับ3.com
-xn--3-wxfs4ab4gvepc.com##.banner-video
-xn--3-wxfs4ab4gvepc.com##.c-top-sidebar
-xn--3-wxfs4ab4gvepc.com##div[id^="ads_"]
-xn--3-wxfs4ab4gvepc.com##.cat-ban
-xn--3-wxfs4ab4gvepc.com###asplayer
-xn--3-wxfs4ab4gvepc.com#$##player { display: block !important; }
-xn--3-wxfs4ab4gvepc.com#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
+! เย็ดยับ3.net
+xn--3-wxfs4ab4gvepc.net##.banner-video
+xn--3-wxfs4ab4gvepc.net##.c-top-sidebar
+xn--3-wxfs4ab4gvepc.net##div[id^="ads_"]
+xn--3-wxfs4ab4gvepc.net##.cat-ban
+xn--3-wxfs4ab4gvepc.net###asplayer
+xn--3-wxfs4ab4gvepc.net#$##player { display: block !important; }
+xn--3-wxfs4ab4gvepc.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
 ! หีงาม.com
 xn--72c6c2a3an.com###asplayer
 xn--72c6c2a3an.com#$##video-player { display: block !important; }
@@ -468,7 +468,16 @@ xn--3-7wf9a3c4b3bt8f0cya.net#$##video-player { display: block !important; }
 ||badlandlispyippee.com/*.js$third-party
 ||detoxifylagoonsnugness.com/*.js$third-party
 javxhub.net##.sAds
+javxhub.net##.video-popover
 ! warpav.net
 warpav.net##.acf-bn-wrap
 ! รักหี.com
 xn--12c1ezaww.com##.dac-section
+! เย็ดดิ.com
+xn--l3ca4b6dsc1b.com##.dac-section
+! thlivehub.com
+thlivehub.com#$##main-video-container { display: block !important; }
+thlivehub.com###preroll-container
+! jav-master.com
+jav-master.com##.b-ads
+jav-master.com##center:has(> a[target="_blank"][rel="dofollow"] > img)
