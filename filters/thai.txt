@@ -1,7 +1,7 @@
-! Checksum: QaMzsluOgZ28BGSDaMSQ5g
+! Checksum: I1odU9eoZSL5aZGcQR5Zrw
 ! Title: SpicySpaceman - Thai Filter
-! Version: 34
-! Last modified: 2026-06-26T09:03:07.597Z
+! Version: 35
+! Last modified: 2026-06-26T09:12:53.600Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -15,7 +15,7 @@
 /wp-content/uploads/*/*/*.gif$domain=xn--12c1ezaww.com|warpav.net|xn--3-7wf9a3c4b3bt8f0cya.net|xn--2-twfsc4dia3uybyf.com|moviefree-hd.com|xn--72caa3cygoc0d9c.com|xn--72cz0evbxczc.net|xn--y3cta3b5d6a.net|xn--3-7wf0bya3bzfvepc.net|nunghd4k.com|owdin.live|lendo.org|migenweb.net|code2cook.com|coronatracker.com|xn--3-nyf3aak0c.net|leahee.com|anime108.com|kserietv.co|mlive3211.net|xxxnung.tv|xn--72cz3a0d5ec.net|nungxthai.me|movie2freehd.com|1112hdx.com|milwaukeechambertheatre.com|xn--247-pkl2evb4db7c2e1b.com|xn--2-2xf6abcy3a4fvg.com|myserieshd.com|series-fulls.com|9nung.com|037hddmovie.com|v8-hdd.com|xn--2-5wfs0cq1gd9b9d2epci.com|xn--72c6c2a3an.com|xn--3-wxfs4ab4gvepc.com|meow-anime.com|cartoonth12.com|24-movie.com|447hd.com|inwporn3.com|av-thaisub.com|anime-hit.com|avsubthai3.com|moviehd-8k.com|lk-hd3.com
 /wp-content/uploads/*.gif$domain=xn--2-wxf7akh2i2cvc.net|unrealities.com|928hd.com
 /image/*/*.gif$domain=animedeku.com
-mvd-24.com,mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
+mvhd24.com,newseries24.com,animeshiro.com##[class^="banner-"]
 stream1689.com,stream1688.com,leoplayer5.com,leoplayer6.com#%#//scriptlet("set-constant", "Object.prototype.ads", "emptyArr")
 animedeku.com#%#//scriptlet('remove-attr', 'onclick', 'body')
 [$path=/\\/(?:movie|series)[a-zA-Z0-9-\\]*/]steamseries88.com,leoplayer5.com,domovie247.com#%#//scriptlet('trusted-replace-node-text', 'script', 'lads', '/let playlist = \[[\s\S]*?\];/', 'let playlist = null;')
@@ -68,11 +68,6 @@ imgur.com/*.gif$third-party,domain=series-play.com|zmaxxx.com
 ! avkuy.com
 avkuy.com##center:has(> div > a[target="_blank"])
 avkuy.com##div[id^="ads_"]
-! jav-th.cc
-jav-th.cc#?#.elementor-widget-image:has(> div > a[rel="noopener"])
-jav-th.cc#?#.above-content-sidebar:has(> div > .widget_media_image > a[href="https://app.viva66.com"])
-! ดูหนังโป๊เด็ดๆ.com
-xn--72czbawn3i1b1dydua6cl3b.com##.b-ads
 ! avsubthai.io
 avsubthai.io##.banner
 avsubthai.io##div[id^="ads"]
@@ -318,7 +313,6 @@ xn--l3caa1bpgf4fuivcr.net##div[id^="ad-bnr-"]
 xn--l3caa1bpgf4fuivcr.net##.pmyt-bd
 plyxxx.com#%#//scriptlet('trusted-replace-node-text', 'script', 'prePlayer', 'currentIndex=0', 'currentIndex=9999')
 ! av-subthaix.net
-av-subthaix.net##.b-ads
 ||avkuy.net/image/*.gif
 ! aoxx69.vip
 aoxx69.vip##.splide
@@ -481,3 +475,7 @@ thlivehub.com###preroll-container
 ! jav-master.com
 jav-master.com##.b-ads
 jav-master.com##center:has(> a[target="_blank"][rel="dofollow"] > img)
+! wow-drama.com
+wow-drama.com##.ads-bokplayer
+! 037hd.co.uk
+037hd.co.uk##.ads-banner-grid
