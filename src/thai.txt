@@ -114,6 +114,7 @@ xn--3-wxfs4ab4gvepc.net##.banner-video
 xn--3-wxfs4ab4gvepc.net##.c-top-sidebar
 xn--3-wxfs4ab4gvepc.net##div[id^="ads_"]
 xn--3-wxfs4ab4gvepc.net##.cat-ban
+xn--3-wxfs4ab4gvepc.net##.widget-info
 xn--3-wxfs4ab4gvepc.net###asplayer
 xn--3-wxfs4ab4gvepc.net#$##player { display: block !important; }
 xn--3-wxfs4ab4gvepc.net#%#//scriptlet('set-constant', 'asVideoJson', 'emptyArr')
@@ -464,6 +465,8 @@ xn--l3ca4b6dsc1b.com##.dac-section
 ! thlivehub.com
 thlivehub.com#$##main-video-container { display: block !important; }
 thlivehub.com###preroll-container
+thlivehub.com##.top-banner-grid
+thlivehub.com##.ft-banner-under-player
 ! jav-master.com
 jav-master.com##.b-ads
 jav-master.com##center:has(> a[target="_blank"][rel="dofollow"] > img)
