@@ -448,6 +448,8 @@ onlyfree.vip#$##player_movie { display: block !important; }
 xn--72c0anj1fqy6jqa7ei.net##.adcen
 xn--72c0anj1fqy6jqa7ei.net###slider-l
 xn--72c0anj1fqy6jqa7ei.net#%#//scriptlet("trusted-replace-node-text", "script", "darkVPConfig", "darkVPConfig =", "darkVPConfig = {},darkVPConfig2 =")
+xn--72c0anj1fqy6jqa7ei.net##.rdads-zone
+xn--72c0anj1fqy6jqa7ei.net##.rdads-slider
 ! เย็ดหีจ้า3.net
 xn--3-7wf9a3c4b3bt8f0cya.net##.yhj-cen
 xn--3-7wf9a3c4b3bt8f0cya.net##.widget-info
@@ -479,3 +481,6 @@ wow-drama.com##.ads-bokplayer
 037hd.co.uk##.ads-banner-grid
 ! หีหีหอม.com
 xn--y3ctaak9bb.com##.dac-section
+! หีสดดดด.com
+xn--l3caaa0if4e.com##.custom-top-video-banner
+xn--l3caaa0if4e.com##.under-video-banner
