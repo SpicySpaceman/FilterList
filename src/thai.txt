@@ -134,6 +134,9 @@ xn--72c6c2a3an.com##.hee-bnn
 ! เย็ดยับ4.com
 xn--4-wxfs4ab4gvepc.com##.banner-video
 xn--4-wxfs4ab4gvepc.com##.c-sidebar
+xn--4-wxfs4ab4gvepc.com##.widget-info
+xn--4-wxfs4ab4gvepc.com##.cat-ban
+xn--4-wxfs4ab4gvepc.com###player > #overlay
 xn--4-wxfs4ab4gvepc.com###asplayer
 xn--4-wxfs4ab4gvepc.com#$##player { display: block !important; }
 ! rov-69.com
@@ -461,6 +464,7 @@ xn--3-7wf9a3c4b3bt8f0cya.net#$##video-player { display: block !important; }
 ||detoxifylagoonsnugness.com/*.js$third-party
 javxhub.net##.sAds
 javxhub.net##.video-popover
+javxhub.net##.text-center:has(> .banners)
 ! warpav.net
 warpav.net##.acf-bn-wrap
 ! รักหี.com
@@ -484,3 +488,8 @@ xn--y3ctaak9bb.com##.dac-section
 ! หีสดดดด.com
 xn--l3caaa0if4e.com##.custom-top-video-banner
 xn--l3caaa0if4e.com##.under-video-banner
+! thxx69.com
+thxx69.com##div[id^="ads-"]
+! เย็ดหีจ้า4.com
+xn--4-7wf9a3c4b3bt8f0cya.com##.yhj-cen
+xn--4-7wf9a3c4b3bt8f0cya.com##.widget-info
