@@ -14,6 +14,7 @@ animedeku.com#%#//scriptlet('remove-attr', 'onclick', 'body')
 ||upfastfile.com/*/*.mp4$domain=stream1688.com
 ||major.cyberlumina.com^$domain=xn--72c6c2a3an.net
 ||blogger.googleusercontent.com/img/*.gif^$image,domain=nungxthai.me|xxxnung.tv
+||linkads.darkadv.com$third-party
 ! 928hd.com
 928hd.com#?#.elementor-widget-image:has(> div > a[rel="nofollow noopener"])
 ! moviehdfree.net
@@ -51,8 +52,6 @@ newseries24.com##.ad-left
 ! anime-hit.com
 anime-hit.com###adsR
 anime-hit.com##.watch-bnn
-! series-online24.com
-series-online24.com##.ads-player-movie
 ! serieshd24.com
 serieshd24.com##.ad-left
 ! series-play.com, avhot699.com
@@ -440,8 +439,6 @@ olf123.org##.b-left-home
 olf123.org##.banner-fixed-right
 olf123.org##.b-bottom-video
 olf123.org##.b-center-video
-mlive.video###overlay
-mlive.video#%#//scriptlet('set-session-storage-item', 'devtool', '$remove$')
 ! onlyfree.vip
 onlyfree.vip###show_ads_c1
 onlyfree.vip##div:has(> a[target="_blank"] > img)
@@ -493,3 +490,6 @@ thxx69.com##div[id^="ads-"]
 ! เย็ดหีจ้า4.com
 xn--4-7wf9a3c4b3bt8f0cya.com##.yhj-cen
 xn--4-7wf9a3c4b3bt8f0cya.com##.widget-info
+! devil69porn.tv
+devil69porn.tv##.rdads-zone
+devil69porn.tv##.rdads-slider
