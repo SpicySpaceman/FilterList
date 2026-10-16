@@ -1,7 +1,7 @@
-! Checksum: bNR2n3NCmHBdD3dYgXB47w
+! Checksum: 2JcJLgb8WUq+OsFmMmjFXA
 ! Title: SpicySpaceman - Thai Filter
-! Version: 41
-! Last modified: 2026-10-09T14:51:36.992Z
+! Version: 42
+! Last modified: 2026-10-16T15:55:47.745Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -511,3 +511,10 @@ lumierecore.com###x9q
 xn--5-wxfs4ab4gvepc.com##.cat-ban
 xn--5-wxfs4ab4gvepc.com##.video-player-banner
 xn--5-wxfs4ab4gvepc.com##.banner-video
+! เย็ดเข้1.com
+xn--1-vwf7cvcvic1ct.com##.wpst-floating-ad
+xn--1-vwf7cvcvic1ct.com##.wpst-player-banner-overlay
+xn--1-vwf7cvcvic1ct.com##.wpst-preroll-start-trigger
+! หนังโป๊คับ.cc
+xn--42cf7cgd7gxbd4m7c.cc##.rdads-zone
+xn--42cf7cgd7gxbd4m7c.cc##.rdads-slider
