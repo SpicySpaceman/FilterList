@@ -503,3 +503,10 @@ lumierecore.com###x9q
 xn--5-wxfs4ab4gvepc.com##.cat-ban
 xn--5-wxfs4ab4gvepc.com##.video-player-banner
 xn--5-wxfs4ab4gvepc.com##.banner-video
+! เย็ดเข้1.com
+xn--1-vwf7cvcvic1ct.com##.wpst-floating-ad
+xn--1-vwf7cvcvic1ct.com##.wpst-player-banner-overlay
+xn--1-vwf7cvcvic1ct.com##.wpst-preroll-start-trigger
+! หนังโป๊คับ.cc
+xn--42cf7cgd7gxbd4m7c.cc##.rdads-zone
+xn--42cf7cgd7gxbd4m7c.cc##.rdads-slider
