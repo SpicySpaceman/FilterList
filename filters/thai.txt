@@ -1,7 +1,7 @@
-! Checksum: 2JcJLgb8WUq+OsFmMmjFXA
+! Checksum: WWxJ83YM877oV4i5ZRtIdg
 ! Title: SpicySpaceman - Thai Filter
-! Version: 42
-! Last modified: 2026-10-16T15:55:47.745Z
+! Version: 43
+! Last modified: 2026-11-25T09:02:30.044Z
 ! Expires: 4 hours (update frequency)
 ! Homepage: https://github.com/SpicySpaceman/FilterList
 ! License: https://github.com/SpicySpaceman/FilterList/blob/main/LICENSE
@@ -394,7 +394,9 @@ xn--3-7wf0bya3bzfvepc.net##.clip-banner
 barlow-master.com###adsModal
 barlow-master.com##.modal-backdrop
 ! พร้อมเย็ด1.com
-xn--1-wxf3amfe4e1hqcp.com##.dac-section--banner
+xn--1-wxf3amfe4e1hqcp.com##.dac
+xn--1-wxf3amfe4e1hqcp.com##.video-player-banners-left
+xn--1-wxf3amfe4e1hqcp.com##.video-player-banner-right
 ! หีใหม่.net
 xn--y3cta3b5d6a.net##.ft-banner-under-player
 xn--y3cta3b5d6a.net##div:has(> a[rel="nofollow sponsored external noopener noreferrer"])
@@ -515,6 +517,29 @@ xn--5-wxfs4ab4gvepc.com##.banner-video
 xn--1-vwf7cvcvic1ct.com##.wpst-floating-ad
 xn--1-vwf7cvcvic1ct.com##.wpst-player-banner-overlay
 xn--1-vwf7cvcvic1ct.com##.wpst-preroll-start-trigger
+xn--1-vwf7cvcvic1ct.com##.video-banner-wrap
 ! หนังโป๊คับ.cc
 xn--42cf7cgd7gxbd4m7c.cc##.rdads-zone
 xn--42cf7cgd7gxbd4m7c.cc##.rdads-slider
+! หนังโป๊คับ.cc
+xn--42cf7cgd7gxbd4m7c.cc##.rdads-zone
+xn--42cf7cgd7gxbd4m7c.cc##.rdads-slider
+! เว็บหีดํา.com
+xn--l3cl2br0bq7evc0c.com##.rdads-zone
+xn--l3cl2br0bq7evc0c.com##.rdads-slider
+! ดูหนัง18ฟรี.com
+xn--18-3qi3cza3b2a2dxc4b9a.com##.rdads-zone
+xn--18-3qi3cza3b2a2dxc4b9a.com##.rdads-slider
+! หนังโป๊99.tv
+xn--99-3qi1el7gxb7izc.tv##.rdads-zone
+xn--99-3qi1el7gxb7izc.tv##.rdads-slider
+! ดูหีไทย.website
+xn--l3cg7a8a0cwa3f.website###ads-single
+xn--l3cg7a8a0cwa3f.website###ads-slide
+! เย็ดสบัดดดดดด.com
+xn--l3caaaaaa6b5d1dvd5ird.com##div[style]:has(> a[rel="nofollow sponsored external noopener noreferrer"])
+xn--l3caaaaaa6b5d1dvd5ird.com##.ft-banner-under-player
+xn--l3caaaaaa6b5d1dvd5ird.com#$##main-video-container { display: block !important; }
+! ok-doujinx.com
+ok-doujinx.com##.c-sidebar
+ok-doujinx.com##div[id^="sticky-ads-bottom"]
